@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("./images/back.jpg");
+    background-size: cover;
+}
+
+.big_box {
+    border: 2px solid;
+    border-color: #ffffff88;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.815);
+    width: 550px;
+    height: 180px;
+
+}
+
+.uuidinput {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.camera {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.verificar {
+    background-color: #28a759;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.relatorio {
+    background-color: #3b3b3b;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.uploadfile {
+    background-color: #e08700;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 180px;
+}

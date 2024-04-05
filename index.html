@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Leitor de QR Code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+    <div class="big_box">
+        <h1>Leitor de QR Code</h1>
+        <div id="qr-reader"></div>
+        <p id="mensagem"></p>
+
+        <label for="uuidInput">Insira o UUID:</label>
+        <input type="text" id="uuidInput" class="uuidinput">
+        <button id="cameraBtn" class="camera">
+            <i class="fas fa-camera"></i> Abrir Câmera
+        </button>
+
+        <div class="medium_box">
+            <button id="verificarBtn" class="verificar">
+                VERIFICAR
+            </button>
+
+            <button id="gerarRelatorioBtn" class="relatorio">
+                Gerar Relatório
+            </button>
+
+            <input type="file" id="uploadInput" class="uploadfile" accept="image/*">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.0.0/dist/jsQR.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
